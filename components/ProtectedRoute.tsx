@@ -19,7 +19,7 @@ const ProtectedRoute = ({ children, roleName }: ProtectedRouteProps) => {
       <div className="h-auto flex flex-row w-full items-center">
         <main className="flex flex-col h-screen w-full items-center justify-center gap-4">
           <h1 className="text-red-500">
-            You don't have permission to access this page.
+            You do not have permission to access this page.
           </h1>
           <Link href="/">
             <span className="text-blue-800 font-bold text-xl">Go Home</span>
